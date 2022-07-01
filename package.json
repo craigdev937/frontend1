@@ -1,0 +1,36 @@
+{
+  "name": "frontend1",
+  "version": "1.0.0",
+  "description": "Initial setup of the Project.  Created with Express.js and Express-Handlebars.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/frontend1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/frontend1/issues"
+  },
+  "homepage": "https://github.com/indigomx9/frontend1#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
+
+
